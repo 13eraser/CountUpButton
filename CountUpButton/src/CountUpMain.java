@@ -1,9 +1,9 @@
 /*
  * Decompiled with CFR 0.152.
  */
-public class Csp2Lec14Sub01Main {
+public class CountUpMain {
     public static void main(String[] args) {
-        Csp2Lec14Sub01AFrame frame = new Csp2Lec14Sub01AFrame();
+        CountUpAFrame frame = new CountUpAFrame();
         frame.setVisible(true);
     }
 }

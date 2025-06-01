@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-public class Csp2Lec14Sub01APanel
+public class CountUpAPanel
 extends JPanel
 implements ActionListener {
     private JButton button = new JButton("START");
@@ -14,7 +14,7 @@ implements ActionListener {
     boolean finishbutton = true;
     private CountUp cu;
 
-    public Csp2Lec14Sub01APanel() {
+    public CountUpAPanel() {
         this.add(this.button);
         this.button.addActionListener(this);
     }

@@ -3,12 +3,12 @@
  */
 import javax.swing.JFrame;
 
-public class Csp2Lec14Sub01AFrame
+public class CountUpAFrame
 extends JFrame {
-    public Csp2Lec14Sub01AFrame() {
-        this.setTitle("Sub1");
+    public CountUpAFrame() {
+        this.setTitle("CountUp");
         this.setSize(640, 480);
         this.setDefaultCloseOperation(3);
-        this.setContentPane(new Csp2Lec14Sub01APanel());
+        this.setContentPane(new CountUpAPanel());
     }
 }

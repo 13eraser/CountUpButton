@@ -1,25 +1,3 @@
-# コンパイルで生成されるクラスファイル
+#クラスファイル無視
 *.class
 
-# jar, war, earなどのビルド成果物
-*.jar
-*.war
-*.ear
-
-# Eclipse や IntelliJ IDEA のプロジェクト設定ファイル（あれば）
-*.iml
-.idea/
-.project
-.classpath
-.settings/
-
-# 出力ディレクトリ（あなたの環境に合わせて）
-bin/
-out/
-
-# OS依存の不要ファイル
-.DS_Store
-Thumbs.db
-
-# VSCode関連
-.vscode/
